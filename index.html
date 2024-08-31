@@ -3,41 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ваш сайт</title>
-    <!-- Подключение CSS-файла -->
+    <title>Warface Guide</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>Ваш сайт</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="services.html">Услуги</a></li>
-                <li><a href="prices.html">Цены</a></li>
-                <li><a href="achievements.html">Достижения</a></li>
-                <li><a href="calculator.html">Калькулятор</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-        </nav>
+        <h1>Warface Guide</h1>
     </header>
 
-    <section id="hero">
-        <h2>Добро пожаловать на наш сайт!</h2>
-        <p>Мы предлагаем лучшие услуги в своей области.</p>
-        <a href="services.html" class="cta-button">Узнать больше</a>
+    <section id="assault">
+        <h2>Штурмы</h2>
+        <p>Здесь будут советы и тактики по штурмам в Warface...</p>
     </section>
 
-    <section>
-        <h2>О нас</h2>
-        <p>Здесь кратко расскажите о себе, чем занимаетесь, почему люди должны выбрать ваши услуги.</p>
+    <section id="victories">
+        <h2>Победы</h2>
+        <p>Как достичь победы в разных режимах игры...</p>
     </section>
 
-    <footer class="footer">
-        <p>&copy; 2024 Ваш сайт. Все права защищены.</p>
+    <section id="statometer">
+        <h2>Статомер</h2>
+        <form id="stat-form">
+            <label for="nickname">Введите никнейм:</label>
+            <input type="text" id="nickname" name="nickname" required>
+            <label for="desired-stat">Желаемая статистика (K/D):</label>
+            <input type="text" id="desired-stat" name="desired-stat" required>
+            <button type="submit">Рассчитать</button>
+        </form>
+        <div id="result"></div>
+    </section>
+
+    <section id="videos">
+        <h2>Видео</h2>
+        <div class="video-container">
+            <!-- Вставьте сюда ссылки на видео -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>Warface Guide &copy; 2024</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
