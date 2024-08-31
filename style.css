@@ -1,80 +1,37 @@
-/* Общие стили для страницы */
 body {
-    background-image: url('images/4e3f74c2-6278-4387-9b62-43f4c9a4407b.webp'); /* Укажите путь к вашему изображению */
-    background-size: cover; /* Изображение покрывает весь экран */
-    background-position: center; /* Центрирует изображение */
-    background-attachment: fixed; /* Фиксирует фон при прокрутке */
-    background-repeat: no-repeat; /* Не повторяет изображение */
-    margin: 0;
     font-family: Arial, sans-serif;
-    color: #c9d1d9; /* Цвет текста */
-}
-
-/* Стили шапки */
-header {
-    background-color: rgba(22, 27, 34, 0.8); /* Полупрозрачный фон */
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* Навигационное меню */
-nav ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
+    line-height: 1.6;
     margin: 0;
+    padding: 0;
 }
 
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #c9d1d9;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #58a6ff;
-}
-
-/* Секция героя */
-#hero {
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f0f6fc;
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Темный слой для читабельности текста */
 }
 
-/* Кнопка призыва к действию */
-.cta-button {
-    background-color: #238636;
-    color: #ffffff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-    background-color: #2ea043;
-}
-
-/* Стили секций */
 section {
-    padding: 40px 20px;
+    padding: 20px;
 }
 
-/* Стили подвала */
-.footer {
-    background-color: #161b22;
+h2 {
+    color: #333;
+}
+
+#statometer {
+    background: #f4f4f4;
     padding: 20px;
+}
+
+#videos {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
     text-align: center;
-    color: #8b949e;
+    padding: 10px 0;
 }
