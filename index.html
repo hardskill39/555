@@ -1,68 +1,55 @@
+
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Warface Guide</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Сайт-визитка для игрового клана в Warface">
+    <meta name="keywords" content="Warface, фарм, клановые штурмы, игровая статистика, победы в Warface">
+    <title>Клан Warface</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <h1>Warface Guide</h1>
-        </div>
-        <nav class="navbar">
+    <header>
+        <h1>Клан Warface</h1>
+        <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#shurmy">Штурмы</a></li>
+                <li><a href="#pobedy">Победы</a></li>
+                <li><a href="#statomer">Статомер</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="#faq">FAQ</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h2>Game on!</h2>
-            <p>Здесь будут лучшие гайды по Warface, тактики и советы...</p>
-            <a href="#" class="btn">Read More</a>
-        </div>
-    </section>
-
-    <section id="assault">
+    <section id="shurmy">
         <h2>Штурмы</h2>
-        <p>Здесь будут советы и тактики по штурмам в Warface...</p>
+        <p>Информация о текущих и прошедших штурмах...</p>
     </section>
 
-    <section id="victories">
+    <section id="pobedy">
         <h2>Победы</h2>
-        <p>Как достичь победы в разных режимах игры...</p>
+        <p>Наши достижения и победы...</p>
     </section>
 
-    <section id="statometer">
+    <section id="statomer">
         <h2>Статомер</h2>
-        <form id="stat-form">
-            <label for="nickname">Введите никнейм:</label>
-            <input type="text" id="nickname" name="nickname" required>
-            <label for="desired-stat">Желаемая статистика (K/D):</label>
-            <input type="text" id="desired-stat" name="desired-stat" required>
-            <button type="submit">Рассчитать</button>
-        </form>
-        <div id="result"></div>
+        <p>Отслеживайте статистику игроков...</p>
     </section>
 
-    <section id="videos">
-        <h2>Видео</h2>
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <p>Связаться с администрацией клана можно по следующим каналам...</p>
+    </section>
+
+    <section id="faq">
+        <h2>FAQ</h2>
+        <p>Ответы на часто задаваемые вопросы...</p>
     </section>
 
     <footer>
-        <p>Warface Guide &copy; 2024</p>
+        <p>&copy; 2024 Клан Warface. Все права защищены.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
